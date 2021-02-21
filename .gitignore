@@ -2,3 +2,11 @@
 .vscode/
 
 *.pyc
+
+c/cdc-acm
+
+c/hid-keyboard
+
+c/hid-mouse
+
+*.o
