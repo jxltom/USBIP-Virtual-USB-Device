@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
+
+[scripts]
+list = "usbip list -r 127.0.0.1"
+attach = "sudo usbip attach -r 127.0.0.1 -b 1-1"
