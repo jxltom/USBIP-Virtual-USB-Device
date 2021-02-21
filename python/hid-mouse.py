@@ -56,8 +56,8 @@ configuration.interfaces = [interface_d]   # Supports only one interface
 
 
 class USBHID(USBDevice):
-    vendorID = 0x0627
-    productID = 0x0
+    vendorID = 0x1209
+    productID = 0x9DB5
     bcdDevice = 0x0
     bcdUSB = 0x0
     bNumConfigurations = 0x1

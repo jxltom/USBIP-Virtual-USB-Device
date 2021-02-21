@@ -39,8 +39,8 @@ const USB_DEVICE_DESCRIPTOR dev_dsc=
     0x00,                   // Subclass code
     0x00,                   // Protocol code
     0x10,                   // Max packet size for EP0, see usb_config.h
-    0x2706,                 // Vendor ID
-    0x000A,                 // Product ID
+    0x1209,                 // Vendor ID
+    0x9DB5,                 // Product ID
     0x0100,                 // Device release number in BCD format
     0x01,                   // Manufacturer string index
     0x03,                   // Product string index
